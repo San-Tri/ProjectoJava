@@ -12,7 +12,8 @@ public class ProjectoJava {
         Scanner teclado = new Scanner(System.in);
         nombre = teclado.nextLine();
         System.out.println("¡Hola " + nombre + "!");
-        int número = sc.nextLine();
+        System.out.println("Ingrese un número");
+        int número = sc.nextInt();
         if(número<= 10) {
             System.out.println("El número es menor que 10");
 }else{
