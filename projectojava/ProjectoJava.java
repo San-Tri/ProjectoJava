@@ -9,15 +9,13 @@ public class ProjectoJava {
         Scanner sc = new Scanner (System.in);
         System.out.println("Introduse tu nombre");
         String nombre = sc.nextLine();
-        Scanner teclado = new Scanner(System.in);
-        nombre = teclado.nextLine();
         System.out.println("¡Hola " + nombre + "!");
         System.out.println("Ingrese un número");
         int número = sc.nextInt();
         if(número<= 10) {
             System.out.println("El número es menor que 10");
 }else{
-            System.out.println("El número es menor que 10");
+            System.out.println("El número es mayor que 10");
         }
     }
     
