@@ -1,4 +1,5 @@
 package projectojava;
+//importar la clase Scanner
 import java.util.Scanner;
 public class ProjectoJava {
 
@@ -8,9 +9,11 @@ public class ProjectoJava {
     public static void main(String[] args) {
         //llamar a la funcion escaner
         Scanner name = new Scanner (System.in);
+        //pedir al usuario su nombre
         System.out.println("Introduse tu nombre");
         String nombre = name.nextLine();
         System.out.println("¡Hola " + nombre + "!");
+        //pedir al usuario que ingrese un número
         System.out.println("Ingrese un número");
         int número = name.nextInt();
         if(número<= 10) {
