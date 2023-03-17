@@ -6,9 +6,10 @@ public class ProjectoJava {
      Elaborar un algoritmo que permita el ingreso de un número si es mayor o menor que "10"
      */
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
+        //llamar a la funcion escaner
+        Scanner name = new Scanner (System.in);
         System.out.println("Introduse tu nombre");
-        String nombre = sc.nextLine();
+        String nombre = name.nextLine();
         System.out.println("¡Hola " + nombre + "!");
         System.out.println("Ingrese un número");
         int número = sc.nextInt();
