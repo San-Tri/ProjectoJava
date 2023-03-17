@@ -9,5 +9,12 @@ public class ProjectoJava3 {
     System.out.println("Introduse tu nombre");
     String nombre = name.nextLine();
     System.out.println("¡Hola " + nombre);
+    //ponemos el resto de los datos
+    int suma = 0;
+        for (int i = 0; i<=5; i++){
+        System.out.println(suma + "+" + i);
+        suma = suma +i;
+        System.out.println("la suma es de los 5 primeros números es; ");
+        }
     }
 }
