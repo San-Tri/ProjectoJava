@@ -15,6 +15,9 @@ public class projectoJava2 {
 		// pedir el número al usuario
 		System.out.println("Escribe un número:");
         double numero = escaner.nextDouble();
+        //comparar
+        if (numero == 0) {
+        
 		
 
 
