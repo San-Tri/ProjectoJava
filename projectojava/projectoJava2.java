@@ -17,10 +17,13 @@ public class projectoJava2 {
         double numero = escaner.nextDouble();
         //comparar
         if (numero == 0) {
+            System.out.println("El número es neutro");
+        } else if (numero < 0) {
+			System.out.println("El número es negativo");
+		} else {
+			System.out.println("El número es positivo"); 
         
 		
-
-
-
         }
     }
+}
