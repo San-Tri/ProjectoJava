@@ -16,6 +16,7 @@ public class ProjectoJava {
         //pedir al usuario que ingrese un número
         System.out.println("Ingrese un número");
         int número = name.nextInt();
+        //usar una condicional para ejecutar una condicion
         if(número<= 10) {
             System.out.println("El número es menor que 10");
 }else{
