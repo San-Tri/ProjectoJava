@@ -1,5 +1,5 @@
 package Pojectojava4;
-
+//importamos Arraylist;
 import java.util.ArrayList;
 
 public class JavaApplication19 {
