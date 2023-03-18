@@ -10,11 +10,16 @@ public class ProjectoJava3 {
     String nombre = name.nextLine();
     System.out.println("¡Hola " + nombre);
     //ponemos el resto de los datos
-    int suma = 0;
-        for (int i = 0; i<=5; i++){
-        System.out.println(suma + "+" + i);
-        suma = suma +i;
-        System.out.println("la suma es de los 5 primeros números es; ");
-        }
-    }
+     Scanner number = new Scanner (System.in);
+     System.out.println("Ingrese un número para ralizar la suma");
+     int n = number.nextInt();
+     int suma = 0;
+     for (int numero = 1;numero <=n; numero ++){
+         suma = suma + numero;
+         
+      }
+      System.out.println("La suma es:"+ suma);
+   }
+        
 }
+
