@@ -1,7 +1,12 @@
 package ProjectoJava8;
-
+import java.util.Scanner;
 public class ProjectoJava8 {
     public static void main(String[] args) {
+        //llamar a la fusion escaner
+        Scanner vble = new Scanner (System.in);
+        
+        System.out.println("ingrese el numero");
+        System.out.println("ingrese el segundo numero");
         //Usamos operadores de igualdad
         int vble1 = 10;
         int vble2 = 20;
