@@ -6,15 +6,12 @@ public class ProjectoJava8 {
         int vble2 = 20;
 
     if (vble1 != vble2)
-        System.out.println(" 10 != 20");
+        System.out.println(" 10 != 20"+" es diferente");
 
     if (vble1 < vble2)
-        System.out.println(" 10 < 20");
-
-    if (vble1 >= vble2)
-        System.out.println(" 10 >= 20");
+        System.out.println(" 10 < 20"+" es menor");
 
     if (vble1 <= vble2)
-        System.out.println(" 10 <= 20");
+        System.out.println(" 10 <= 20"+"es menor o igual");
     }
 }
