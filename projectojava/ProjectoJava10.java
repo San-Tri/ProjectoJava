@@ -6,7 +6,7 @@ public class ProjectoJava10 {
         int n1 = n.nextInt ();
         System.out.println("ingrese el segundo numero: ");
         int n2 = n.nextInt ();
-        System.out.println("los numeros impares de " + n1 + " a" + n2 + " son");
+        System.out.println("los numeros impares de " + n1 + " a " + n2 + " son:");
         for (int i = n1; i <= n2; i++){
             if (i % 2 !=0){
                 System.out.println(i);
